@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>NFC Write Open URL</title>
+    </head>
+    <body>
+        <p>NFC Write Open URL</p>
+        <div class="app">
+            <!--<form>
+                Write tag: <br/ >
+                <select id="appPicker"> 
+                    <option value="1">MIME</option>
+                    <option value="2">URI</option>
+                    <option value="3">Smart Poster</option>
+                    <option value="4">App launcher 1</option>
+                    <option value="5">App launcher 2</option>
+                </select>
+            </form>-->      
+            <div id="messageDiv">No tag found</div> 
+        </div>    
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
